@@ -1,3 +1,4 @@
+#CRUD PROJECT
 This is a simple CRUD (Create, Read, Update, Delete) project built using Flask and PostgreSQL. It allows users to perform CRUD operations on a database table, which stores contact information.
 Features
 Create: Add new contact information to the database.
