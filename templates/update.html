@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Update Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container1">
+        <h1>Time to Update the data!!</h1>
+        <form id="updateForm" action="/updateData" method="POST">
+            <div class="form-group">
+                <input type="text" name="mobile" placeholder="Mobile" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="mail" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="city" placeholder="City" required>
+            </div>
+            <div class="form-group">
+                <textarea name="remarks" placeholder="Remarks" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
